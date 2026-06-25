@@ -760,45 +760,6 @@ a  { text-decoration: none; color: inherit; }
   margin-bottom: 16px;
 }
 
-.pricing__price {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
-}
-
-.pricing__from {
-  font-size: .8rem;
-  font-weight: 700;
-  color: var(--text-light);
-  text-transform: uppercase;
-  letter-spacing: .08em;
-}
-
-.pricing__amount {
-  font-family: var(--font-head);
-  font-size: 2.8rem;
-  color: var(--green);
-  line-height: 1;
-}
-
-.pricing__features {
-  list-style: none;
-  padding: 20px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  border-top: 1px solid rgba(200,169,122,.2);
-}
-
-.pricing__features li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: .95rem;
-  font-weight: 600;
-  color: var(--text);
-}
 
 .pricing__btn {
   display: block;

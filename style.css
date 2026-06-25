@@ -444,6 +444,23 @@ a  { text-decoration: none; color: inherit; }
 .banner-art--card .banner-art__stars { font-size: 1.2rem; letter-spacing: 4px; }
 .banner-art--card .banner-art__deco  { font-size: 1.1rem; letter-spacing: 8px; margin-top: 10px; }
 
+/* ── Hero slide real photos ── */
+.hero__slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Gallery card real photos ── */
+.gallery__card-img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+  display: block;
+}
+
 /* ── Dot indicators ── */
 .hero__dots {
   display: flex;

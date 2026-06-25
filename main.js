@@ -229,57 +229,6 @@
   });
 
   /* ================================================================
-     HOW IT WORKS — steps stagger
-     ================================================================ */
-  gsap.utils.toArray('[data-how-step]').forEach((step, i) => {
-    gsap.to(step, {
-      scrollTrigger: {
-        trigger: step,
-        start: 'top 85%',
-        toggleActions: 'play none none reverse'
-      },
-      y: 0,
-      opacity: 1,
-      duration: .9,
-      delay: i * .18,
-      ease: 'power3.out'
-    });
-  });
-
-  gsap.from('.how .section-header', {
-    scrollTrigger: { trigger: '.how', start: 'top 80%', toggleActions: 'play none none reverse' },
-    y: 40, opacity: 0, duration: .9, ease: 'power3.out'
-  });
-
-  gsap.from('.how__turnaround', {
-    scrollTrigger: { trigger: '.how__turnaround', start: 'top 90%', toggleActions: 'play none none reverse' },
-    scale: .92, opacity: 0, duration: .7, ease: 'back.out(2)'
-  });
-
-  /* ================================================================
-     PRICING — cards pop up
-     ================================================================ */
-  gsap.utils.toArray('[data-pricing-card]').forEach((card, i) => {
-    gsap.to(card, {
-      scrollTrigger: {
-        trigger: card,
-        start: 'top 88%',
-        toggleActions: 'play none none reverse'
-      },
-      y: 0,
-      opacity: 1,
-      duration: .8,
-      delay: i * .15,
-      ease: 'back.out(1.6)'
-    });
-  });
-
-  gsap.from('.pricing .section-header', {
-    scrollTrigger: { trigger: '.pricing', start: 'top 80%', toggleActions: 'play none none reverse' },
-    y: 40, opacity: 0, duration: .9, ease: 'power3.out'
-  });
-
-  /* ================================================================
      CONTACT — fade + slide up
      ================================================================ */
   gsap.from('.contact__inner > *', {

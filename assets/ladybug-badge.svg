@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Circle background -->
+  <circle cx="60" cy="60" r="58" fill="#FDF9F3" stroke="#3A8C3F" stroke-width="3"/>
+
+  <!-- Ladybug body (red/pink shell) -->
+  <ellipse cx="60" cy="68" rx="28" ry="26" fill="#E8548A"/>
+
+  <!-- Center line -->
+  <line x1="60" y1="44" x2="60" y2="94" stroke="#2D2D2D" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Spots -->
+  <circle cx="48" cy="62" r="5.5" fill="#2D2D2D"/>
+  <circle cx="72" cy="62" r="5.5" fill="#2D2D2D"/>
+  <circle cx="50" cy="76" r="4" fill="#2D2D2D"/>
+  <circle cx="70" cy="76" r="4" fill="#2D2D2D"/>
+
+  <!-- Head -->
+  <ellipse cx="60" cy="44" rx="14" ry="12" fill="#2D2D2D"/>
+
+  <!-- Eyes -->
+  <circle cx="54" cy="41" r="3.5" fill="white"/>
+  <circle cx="66" cy="41" r="3.5" fill="white"/>
+  <circle cx="54.8" cy="41.8" r="1.8" fill="#2D2D2D"/>
+  <circle cx="66.8" cy="41.8" r="1.8" fill="#2D2D2D"/>
+  <circle cx="55.4" cy="41.2" r=".7" fill="white"/>
+  <circle cx="67.4" cy="41.2" r=".7" fill="white"/>
+
+  <!-- Antennae -->
+  <path d="M54 33 Q48 24 44 20" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M66 33 Q72 24 76 20" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <circle cx="43" cy="19" r="3" fill="#E8548A"/>
+  <circle cx="77" cy="19" r="3" fill="#E8548A"/>
+
+  <!-- Little legs -->
+  <path d="M35 60 Q28 56 24 52" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M35 68 Q26 68 22 66" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M35 76 Q28 80 26 84" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M85 60 Q92 56 96 52" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M85 68 Q94 68 98 66" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M85 76 Q92 80 94 84" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Wing highlight -->
+  <ellipse cx="52" cy="56" rx="7" ry="10" fill="white" opacity=".18" transform="rotate(-10 52 56)"/>
+</svg>
